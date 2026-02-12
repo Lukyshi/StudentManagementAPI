@@ -7,6 +7,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 // database access
 // handles all database operations
 public interface StudentRepository extends JpaRepository<Student, Long> {
-    
+    // JpaRepository include :
+    // save()
+    // findAll()
+    // findById()
+    // deleteById()
 
 }
